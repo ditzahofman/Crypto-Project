@@ -1,0 +1,305 @@
+html,body{
+    height: 100%;
+    width: 100%;
+   }
+@media only screen and (max-device-width: 1366px) {
+    #backgroundnav {
+        background-image: url("https://cdn.pixabay.com/photo/2019/05/16/15/55/bitcoin-4207418__340.jpg")!important;
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+        background-attachment: scroll!important;
+        min-height: 300px!important;
+    }
+        .h1{
+            display: none!important;
+             }
+         #chartContainer{
+            width: 100%;
+         }
+  }
+#backgroundnav{
+    background-image: url("bitcoin-4207418__340.jpg");
+    min-height: 510px;
+    background-attachment: fixed;
+    background-repeat: no-repeat!important;
+    background-size: cover;
+    text-align: center;
+ }
+ .text{
+    font-family: 'Lobster', cursive!important;
+    -webkit-text-stroke: 0.2px rgb(23, 13, 13);
+text-shadow:
+-1px 0px 0px rgb(166, 148, 59),
+
+0px -2px 0px rgb(228, 227, 221),
+0px 2px 0px rgb(78, 56, 14);color: rgb(201, 134, 26);
+ }
+ .h1{
+padding-top: 5%;
+font-size: 150px!important;
+font-family: 'Lobster', cursive!important;
+color: rgb(192, 186, 154)!important; 
+-webkit-text-stroke: 2px rgb(23, 13, 13);
+text-shadow:
+-1px 0px 0px rgb(166, 148, 59),
+1px 0px 0px rgb(183, 145, 21),
+0px -2px 0px rgb(207, 172, 16),
+0px 2px 0px rgb(226, 160, 27);color: rgb(201, 134, 26);
+ }
+ nav.navbar{
+    background-color:rgb(121, 112, 63)!important;
+ }
+.navbar-brand,.navbar-custom{ 
+    font-family: 'Lobster', cursive!important;
+    font-size: 55px!important;
+}
+input,#search{
+    color:  rgb(6, 31, 14)!important; 
+    font-family: 'Lobster', cursive!important;
+    font-size: 30px!important;
+    border: 5px solid  rgb(6, 31, 14)!important;
+}
+.nav-link{
+    color: rgb(6, 31, 14)!important;
+    font-family: 'Lobster', cursive; 
+    margin-left: 100px; 
+   font-size: 30px!important;
+}
+.loadercollapse{
+width: 100%;
+font-size: large !important;
+}
+.loader {
+    z-index: 300;
+    text-align: center;
+    width:100%;
+   background-color: white;
+ }
+#homeSection{
+    text-align: center;
+ /*  background-image: linear-gradient(to right,  rgb(31, 65, 32),rgb(68, 66, 59), rgb(17, 73, 49));*/
+ background-color: black;
+   position: relative;
+   width: 100%;
+  
+}
+#reportSection,#aboutSection{
+ /*   background-image: linear-gradient(to right, rgb(31, 65, 32),rgb(68, 66, 59), rgb(17, 73, 49))!important;*/
+ background-color: black;
+ width: 100%;
+}
+.w3-card:hover{
+    background-color: rgb(145, 141, 116)!important;
+}
+.card{
+    width: 220px;
+    height: 70px;
+    margin: 8px;
+    border: 1px solid rgb(121, 112, 63)!important;
+    display: inline-block!important;
+    position: relative;
+    transition: transform .2s;
+  box-shadow: 0 4px rgb(137, 131, 94);
+  border-radius: 15px ;
+}
+.card:hover {
+
+    border-width: 5px;
+}
+p,span,label{
+    font-family: 'Lobster', cursive!important; 
+    font-size: 22px !important ; 
+    color:rgb(15, 60, 15)
+}
+.id{
+    font-family: 'Lobster', cursive!important; 
+    font-size: 22px !important ; 
+    color:rgb(15, 60, 15);
+       text-align: left;
+    
+}
+h2{
+    font-family: 'Lobster', cursive!important; 
+    color:rgb(15, 60, 15)   
+}
+.gold{
+    background-image: linear-gradient(to right, rgb(194, 197, 161), rgb(93, 141, 120),rgb(97, 96, 91))!important;
+   /* background-color: rgb(145, 141, 116)!important;*/
+}
+.green{
+    color:rgb(15, 60, 15);    
+}
+.labelCard{
+    position: relative;
+    right:48%;
+    font-family: 'Lobster', cursive!important; 
+    font-size: 22px !important ; 
+    color:rgb(15, 60, 15);
+}
+#symbol{
+       font-size: 30px !important;
+}
+.imgcoin{
+   position: absolute; 
+   left: 54%;
+   top: 18%;
+  
+}
+
+/*.card-body{
+    border: solid rgb(83, 72, 5) 1px;
+}*/
+.form-check-input:checked {
+    background-color:rgb(58, 121, 58)!important;
+    border-color: rgb(83, 72, 5);
+    width: 40px !important;
+    height: 20px !important;
+    box-shadow: 0 1px rgb(83, 72, 5)!important;
+}
+
+.form-switch .form-check-input {
+   width: 40px !important;
+    height: 20px !important;
+    box-shadow: 0 2px rgb(83, 72, 5)!important;
+}
+
+.form-check-input {
+    width: 50px !important;
+    height: 25px !important;
+}
+
+.form-check{
+position: relative;
+left: 15%;
+}
+.id{
+    position: relative;
+    top: 0%;
+}
+.card>.contantcard{
+    position: relative !important;
+    left: 4%!important;
+   
+}
+.text-collapse{
+    margin-top: 4px;
+    border: 1px rgb(83, 72, 5) solid;
+    font-family: 'Lobster', cursive; 
+    font-size: large;
+    text-align: center;
+    color:rgb(15, 60, 15)
+}
+
+.btnf{
+    
+      cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px rgb(83, 72, 5);
+    border: 2px rgb(83, 72, 5) solid!important;
+     position: relative;
+    font-family: 'Lobster', cursive!important;  
+    background-color:rgb(15, 60, 15);
+    color: rgb(121, 112, 63)!important;
+    font-size: 20px !important;
+    position: relative; 
+    left: 45%;  
+}
+.btn-moreinfo{
+    width: 120px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px rgb(83, 72, 5);
+    border: 2px rgb(83, 72, 5) solid!important;
+    position: relative;
+    margin-bottom: 5%;
+    font-family: 'Lobster', cursive!important;  
+    background-color:rgb(15, 60, 15);
+    color: rgb(121, 112, 63)!important;
+    font-size: 20px !important;
+  
+}
+#close,#save,.btnf,.btn-moreinfo:hover {
+    background-color: #2a382b;
+    color: rgb(204, 193, 133)!important;
+}
+@media (prefers-reduced-motion: reduce) {
+    .collapsing {
+        transition-property: height, visibility;
+        transition-duration: .35s;
+    }
+}
+#close,#save,.btnf,.btn-moreinfo:active {
+  background-color: #1a2e1b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: rgb(121, 112, 63)!important;
+  font-family: 'Lobster', cursive!important;
+ font-size: 20px !important;
+}
+.modal-border{
+    border: #263a27 solid 4px!important;
+}
+.modal{
+    box-shadow: 8px 4px 8px 8px rgba(42, 104, 50, 0.2), 0 6px 20px 0 rgb(121, 112, 63);
+    border: #263a27 solid 4px!important;
+   }
+.modal-body{
+    position: relative;
+    left: 2%;
+    font-family: 'Lobster', cursive!important;
+    font-size: 20px!important;
+  
+}
+h5{
+    font-family: 'Lobster', cursive!important;
+    font-size: 25px!important; 
+}
+.p-modal,h6{
+    font-family: 'Lobster', cursive!important;
+    font-size: 20px!important;  
+}
+.spinner-border{
+   border: solid rgb(121, 112, 63) 3px!important;
+}
+
+#image-digital{
+    border: #263a27 solid 4px;
+    position: relative;
+   width: 100%;
+   height: auto;
+    box-shadow: 0px 4px 8px 8px rgba(42, 104, 50, 0.2), 0 6px 20px 0 rgb(8, 8, 7);
+
+}
+
+.big{
+    font-size: 30px!important;
+}
+#woman{
+    border: #263a27 solid 8px;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 22%; 
+    margin-top:2%;
+}
+.border{
+    border: #263a27 solid 8px !important;
+   
+}
+textarea{
+    width: 100%;
+  border: solid 2px rgb(121, 112, 63);
+}
+/* */
+#aboutMe{
+    font-size: 25px;
+}
+
