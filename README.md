@@ -26,6 +26,7 @@ To use The Crypto Project:
 
 ## Website
 
-Visit the [Crypto Project Website]([https://www.example.com](https://ditzahofman.github.io/Crypto-Project/)https://ditzahofman.github.io/Crypto-Project/) to access the live version of the site.
+Visit the 
+[Crypto Project Website](https://ditzahofman.github.io/Crypto-Project/) to access the live version of the site.
 
 
