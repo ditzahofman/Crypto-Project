@@ -24,5 +24,8 @@ To use The Crypto Project:
 2. Open the project directory: `cd crypto-project`
 3. Open `index.html` in your web browser.
 
+## Website
+
+Visit the [Crypto Project Website]([https://www.example.com](https://ditzahofman.github.io/Crypto-Project/)https://ditzahofman.github.io/Crypto-Project/) to access the live version of the site.
 
 
